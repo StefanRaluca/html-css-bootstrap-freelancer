@@ -1,3 +1,13 @@
+:root {
+    --bootstrap--primary: rgba(26, 188, 156, 1);
+    --bootstrap--header: rgba(44, 62, 80, 1);
+    --bootstrap--light: rgba(255, 255, 255, 1);
+    --bootstrap--footer: rgba(58, 84, 109, 1);
+    --bootstrap--dark: rgba(44, 62, 80, 1);
+}
+
+
+
 [class^="col"] {
     border: 1px dashed;
     height: 60px;
@@ -12,8 +22,9 @@
 }
 
 .custom_button {
-    width: 50%;
+    width: 25%;
 }
+
 .custom_button_contact {
     width: 30%;
     align-self: flex-start;
