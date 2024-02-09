@@ -39,3 +39,6 @@
 .fa-star{
     font-size: 35px;
 }
+#about{
+    background-color: var(--bootstrap--primary);
+}
