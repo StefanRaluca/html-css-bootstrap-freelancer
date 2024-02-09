@@ -36,3 +36,6 @@
 #jumbo{
     background-color: var(--bootstrap--primary);
 }
+.fa-star{
+    font-size: 35px;
+}
