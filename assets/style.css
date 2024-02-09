@@ -8,13 +8,14 @@
 
 
 
+
 [class^="col"] {
-    border: 1px dashed;
-    height: 60px;
+  /*   border: 1px dashed; */
+   /*  height: 60px; */
 }
 
 #site_header {
-    background-color: aqua;
+    background-color:var(--bootstrap--header);
 }
 
 .star_design {
@@ -28,4 +29,10 @@
 .custom_button_contact {
     width: 30%;
     align-self: flex-start;
+}
+.design_img{
+    height: 200px;
+}
+#jumbo{
+    background-color: var(--bootstrap--primary);
 }
