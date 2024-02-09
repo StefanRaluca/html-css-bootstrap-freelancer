@@ -10,12 +10,17 @@
 
 
 [class^="col"] {
-  /*   border: 1px dashed; */
-   /*  height: 60px; */
+    /*   border: 1px dashed; */
+    /*  height: 60px; */
 }
 
 #site_header {
-    background-color:var(--bootstrap--header);
+    background-color: var(--bootstrap--header);
+}
+
+
+.design_icon{
+    filter: invert(1);
 }
 
 .star_design {
@@ -24,18 +29,79 @@
 
 
 
-.design_img{
-    height: 200px;
-}
-#jumbo{
+#jumbo {
     background-color: var(--bootstrap--primary);
 }
-.fa-star{
+
+.jumbo-listitem {
+    font-size: 1rem;
+}
+
+.fa-star {
     font-size: 35px;
 }
-#about{
+
+#about {
     background-color: var(--bootstrap--primary);
 }
-.custom_button{
+
+.custom_button {
     background-color: var(--bootstrap--primary);
+}
+
+#details {
+    background-color: var(--bootstrap--dark);
+}
+
+.design_icon_media{
+    gap: 1rem;
+}
+.media_icon{
+    height: 1.2rem;
+    justify-content: center;
+    width: 1.2rem;
+    padding: 0.9rem; 
+    align-items: center;
+}
+
+
+
+.fa-star{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.my_hr_light {
+    height: 3px;
+    opacity: 1;
+    background-color: var(--bootstrap--light);
+    color: var(--bs-font_light);
+    border: 1px solid var(--bootstrap--light);
+    width: 10%;
+}
+
+.my_hr_dark {
+    width: 10%;
+    height: 3px;
+    opacity: 1;
+    background-color: var(--bootstrap--dark);
+    color: var(--bootstrap--dark);
+    border: 1px solid var(--bootstrap--dark);
+}
+
+#details{
+    background-color: var(--bootstrap--footer);
+}
+
+.link_footer{
+    color: var(--bootstrap--primary);
+}
+#copyright{
+    background-color: var(--bootstrap--dark);
+}
+@media screen and (min-width: 576px) {
+    .jumbo-listitem {
+        font-size: 1.5rem;
+    }
+  
 }

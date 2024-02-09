@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand-md ">
             <div class="container">
                 <a class="navbar-brand text-white fw-bold" href="#">START BOOTSTRAP</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon design_icon "></span>
@@ -52,24 +52,26 @@
 
 
                     <div class="col-4 ">
-                        <img src="./assets/img/avatar.svg" alt="img" class="img-fluid design_img">
+                        <img src="./assets/img/avatar.svg" alt="img" class="img-fluid ">
                     </div>
 
                     <h1 class="text-white fw-bold py-3">START BOOTSTRAP</h1>
 
-                    <div class="star-icon text-white py-2">
+                    <div class="star-icon text-white d-flex justify-content-center">
+                        <hr class="my_hr_light ">
                         <i class="fa-solid fa-star"></i>
+                        <hr class="my_hr_light ">
                     </div>
 
                     <div class="links py-3">
                         <ul class="d-flex list-inline justify-content-center">
-                            <li class="text-uppercase fs-4 px-1 ">
+                            <li class="text-uppercase jumbo-listitem px-1 ">
                                 <a href="#" class="text-white text-decoration-none">Graphic artist -</a>
                             </li>
-                            <li class="text-uppercase fs-4 px-1">
+                            <li class="text-uppercase jumbo-listitem px-1">
                                 <a href="#" class="text-white text-decoration-none">Web designer -</a>
                             </li>
-                            <li class="text-uppercase fs-4 px-1">
+                            <li class="text-uppercase jumbo-listitem px-1">
                                 <a href="#" class="text-white text-decoration-none">Illustrator</a>
                             </li>
 
@@ -88,8 +90,11 @@
 
             <div class="container text-center p-3">
                 <h2 class=" text-uppercase fw-semibold fs-1">Portfolio</h2>
-                <div class="star-icon text-dark py-3">
+
+                <div class="star-icon text-dark py-3 d-flex justify-content-center">
+                    <hr class="my_hr_dark">
                     <i class="fa-solid fa-star"></i>
+                    <hr class="my_hr_dark ">
                 </div>
 
                 <div class="row ">
@@ -144,16 +149,18 @@
             <div class="container text-center py-3 ">
                 <h2 class="text-uppercase fw-semibold text-white fs-1">About</h2>
 
-                <div class="star-icon text-white py-2">
+                <div class="star-icon text-white d-flex justify-content-center py-2  ">
+                    <hr class="my_hr_light ">
                     <i class="fa-solid fa-star"></i>
+                    <hr class="my_hr_light ">
                 </div>
                 <div class="row justify-content-center text-white text-start py-3 fs-5 ">
-                    <div class="col-md-4 col-sm-12 col-lg-4 p-4 ">
+                    <div class="col-md-6 col-sm-12 col-lg-6 p-4 ">
                         Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
                         complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets
                         for easy customization.
                     </div>
-                    <div class="col-md-4 col-sm-12 col-lg-4 p-4 ">
+                    <div class="col-md-6 col-sm-12 col-lg-6 p-4 ">
                         Whether you're a student looking to showcase your work, a professional looking to attract
                         clients, or a graphic artist looking to share your projects, this template is the perfect
                         starting point!
@@ -173,52 +180,90 @@
         <section class="contact_me">
             <div class="container">
                 <h2 class="contact-heading  text-uppercase fw-semibold text-center fs-1 py-4">Contact Me</h2>
-                <div class="star-icon text-center pb-3">
+                <div class="star-icon text-center d-flex justify-content-center pb-3">
+                    <hr class="my_hr_dark ">
                     <i class="fa-solid fa-star"></i>
+                    <hr class="my_hr_dark ">
                 </div>
-                <form class="contact-form ">
-                    <div class="mb-3 ">
+                <form class="row justify-content-center contact-form ">
+                    <div class="col-12 col-md-8">
+                        <div class="mb-3 ">
 
-                        <input type="text" class="form-control border-bottom border-0 rounded-0 " id="name"
-                            placeholder="Name">
+                            <input type="text" class="form-control form-control-sm border-bottom border-0 rounded-0 "
+                                id="name" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+
+                            <input type="email" class="form-control border-bottom border-0 rounded-0" id="email"
+                                placeholder="Email Adress">
+                        </div>
+                        <div class="mb-3">
+
+                            <input type="tel" class="form-control border-bottom  border-0 rounded-0" id="phone"
+                                placeholder="Phone number">
+                        </div>
+                        <div class="mb-3">
+
+                            <textarea class="form-control border-0 border-bottom rounded-0" id="message" rows="7"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn border-0 custom_button text-white">Send</button>
                     </div>
-                    <div class="mb-3">
-
-                        <input type="email" class="form-control border-bottom border-0 rounded-0" id="email"
-                            placeholder="Email Adress">
-                    </div>
-                    <div class="mb-3">
-
-                        <input type="tel" class="form-control border-bottom  border-0 rounded-0" id="phone"
-                            placeholder="Phone number">
-                    </div>
-                    <div class="mb-3">
-
-                        <textarea class="form-control border-0 border-bottom rounded-0" id="message" rows="7"
-                            placeholder="Enter your message"></textarea>
-                    </div>
-                    <button type="submit" class="btn border-0 custom_button text-white">Send</button>
-
                 </form>
             </div>
-            <section id="details">
-                <div class="container-fluid text-center">
-                    <div class="row justify-content-center ">
-                        <div class="col-sm-12 col-md-4 col-lg-4 bg-primary-subtle">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing </div>
-                        <div class="col-sm-12 col-md-4 col-lg-4 bg-primary-subtle">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing </div>
-                        <div class="col-sm-12 col-md-4 col-lg-4 bg-primary-subtle">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing </div>
+        </section>
+        <section id="details">
+            <div class="container text-center">
+                <div class="row justify-content-center text-white py-5 ">
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <h5>LOCATION</h5>
+                        <span>2215 John Daniel Drive Clark, MO 54243</span>
                     </div>
-            </section>
+                    <div class="col-sm-12 col-md-4 col-lg-4 ">
+                        <h5>AROUND THE WEB</h5>
+                        <div class="d-flex align-items-center justify-content-center design_icon_media  ">
+
+                            <div class="media_icon d-flex border rounded-circle">
+                                <a href="#" class="text-decoration-none text-white">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="media_icon d-flex  border rounded-circle">
+                                <a href="#" class="text-decoration-none text-white">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                            </div>
+                            <div class="media_icon d-flex border rounded-circle">
+                                <a href="#" class=" text-decoration-none text-white">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="media_icon d-flex border rounded-circle">
+                                <a href="#" class="text-decoration-none text-white">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 ">
+                        <h5>ABOUT FREELANCER</h5>
+                        <p>
+                            Freelancer is a free to use, open source Bootstrap theme created by
+                            <a href="#" class="text-decoration-none link_footer">Start Bootstrap</a>
+                        </p>
+                    </div>
+
+                </div>
+        </section>
+
 
     </main>
+
     <footer id="copyright">
-        <div class="container-fluid text-center bg-dark text-white p-3">
+        <div class="container text-center text-white py-4">
             <div class="row">
                 <div class="col-12">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <span>Copyright <i class="fa-regular fa-copyright"></i> Raluca Stefan 2024</span>
                 </div>
             </div>
         </div>
